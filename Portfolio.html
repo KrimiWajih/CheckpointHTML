@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#profile">profile</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr />
+
+    <section id="profile">
+      <h1>Profile</h1>
+      <br />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrUfiySJr8Org5W-oE2v3_i7VqufglYtSdqw&s"
+        alt="logo"
+      />
+      <br />
+      <span><i class="fa-solid fa-user"></i> Krimi Wajih</span><br />
+
+      <span><i class="fa-solid fa-envelope"></i> Krimi.wajih@gmail.com</span
+      ><br />
+
+      <span><i class="fa-solid fa-phone"></i> +216 58884672</span><br />
+    </section>
+    <hr />
+    <section id="projects">
+      <table border="1" width="540" height="80">
+        <tr>
+          <th>Project 1</th>
+          <th>Project 2</th>
+          <th>Project 3</th>
+        </tr>
+        <tr>
+          <th>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/OEV8gMkCHXQ?si=NDCD5UcmGG9MwmTU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </th>
+          <th>
+            <video
+              width="560"
+              height="315"
+              src="./Node.js - Explained In 100 Seconds .mp4"
+              controls
+            ></video>
+          </th>
+          <th>
+            <audio src="./audio.mp3" controls></audio>
+          </th>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <section id="contact">
+      <h1>Contact</h1>
+      <br />
+      <form action="https://Google.com" target="_blank">
+        <span>Name</span>
+        <input type="text" placeholder="put your name here" required /><br />
+        <span>Email</span>
+        <input type="email" placeholder="example@gmail.com" required /><br />
+        <span>Message</span>
+        <textarea
+          placeholder="leave your message"
+          cols="18"
+          rows="18"
+        ></textarea>
+        <br />
+        <button>Submit</button>
+      </form>
+
+      <a href="#navbar"><i class="fa-solid fa-arrow-up"></i></a>
+    </section>
+    <hr />
+
+    <footer>About US</footer>
+  </body>
+</html>
